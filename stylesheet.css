@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+* {
+    margin: 0;
+    color: #e3ecf1;
+}
+
+.wrapper {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.images {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.pictureBlock {
+    box-sizing: border-box;
+    width: 32%;
+    margin-left: 1%;
+}
+
+.img {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 5%;
+    border: #4b83a6 solid 2px;
+}
+
+.wrapper-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timeBlock {
+    box-sizing: border-box;
+    width: 40%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgba(182, 217, 209, 0.88);
+    border-radius: 2%;
+    border: rgba(217, 206, 64, 0.73) outset 2px;
+}
+.timeBlock:hover {
+    background: red;
+    cursor: pointer;
+}
+.text {
+    text-align: center;
+    width: 100%;
+    color: #151111;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4vw;
+}
+
+.thetime {
+    text-align: center;
+    width: 100%;
+    color: #151111;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3vw;
+}
+
+/*header*/
+.section {
+    width: 100%;
+    background: linear-gradient(to right top, #316c93, #4b83a6);
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4vw;
+}
+
